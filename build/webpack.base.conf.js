@@ -104,7 +104,7 @@ module.exports = {
       //   }
       // },
       {
-        test: /\.(gif|png|jpe?g)$/i, // 这里排出svg格式，因为会与svg-sprite-loader冲突
+        test: /\.(png|jpe?g|gif|svg)$/i,
         use: [
           {
             loader: 'url-loader',
